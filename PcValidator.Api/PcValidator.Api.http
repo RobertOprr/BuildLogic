@@ -1,6 +1,0 @@
-@PcValidator.Api_HostAddress = http://localhost:5185
-
-GET {{PcValidator.Api_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

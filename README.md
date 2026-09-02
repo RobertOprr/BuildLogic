@@ -17,7 +17,6 @@ Built as my bachelor's thesis project (Licenta).
 
 - **Backend:** Django + Django REST Framework, MySQL
 - **Frontend:** React (Vite), axios, lucide-react, html2pdf.js
-- **`PcValidator.Api/`** — an early ASP.NET Core scaffold, not yet wired into the product
 
 ## Running locally
 

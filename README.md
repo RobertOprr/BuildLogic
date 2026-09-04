@@ -1,17 +1,17 @@
 # BuildLogic
 
-A PC build compatibility validator. Pick a CPU, motherboard, RAM, GPU, PSU, and case from a component database, and get back a rule-by-rule compatibility report, a power-supply sufficiency check, and a CPU/GPU bottleneck analysis — with a PDF export for documentation.
+A PC build compatibility validator. Pick a CPU, motherboard, RAM, GPU, PSU, and case from a component database, and get back a rule-by-rule compatibility report, a power-supply sufficiency check, and a CPU/GPU bottleneck analysis, with a PDF export for documentation.
 
 Built as my bachelor's thesis project (Licenta).
 
 ## What it checks
 
-- **Socket compatibility** — CPU socket vs. motherboard socket
-- **RAM compatibility** — RAM type (DDR4/DDR5) vs. motherboard support
-- **Form factor fit** — motherboard form factor vs. case support
-- **GPU clearance** — GPU length vs. case maximum GPU length
-- **Power supply sufficiency** — estimated system draw vs. PSU wattage, with a safety margin
-- **CPU/GPU bottleneck** — which component limits the system at a given resolution (1080p/1440p/4K), based on single-core and render scores
+- **Socket compatibility** : CPU socket vs. motherboard socket
+- **RAM compatibility** : RAM type (DDR4/DDR5) vs. motherboard support
+- **Form factor fit** : motherboard form factor vs. case support
+- **GPU clearance** : GPU length vs. case maximum GPU length
+- **Power supply sufficiency** : estimated system draw vs. PSU wattage, with a safety margin
+- **CPU/GPU bottleneck** : which component limits the system at a given resolution (1080p/1440p/4K), based on single-core and render scores
 
 ## Stack
 
